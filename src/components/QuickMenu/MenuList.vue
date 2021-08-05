@@ -2,8 +2,12 @@
   <div class="menuList">
     <h3>{{ msg }}</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">顧客情報新規</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">顧客情報一覧</a></li>
+      <li><a href="">顧客情報新規</a></li>
+      <li><a href="">顧客情報一覧</a></li>
+    </ul>
+    <h3>Sample</h3>
+    <ul>
+      <li><a href="/Sample1">Sample1</a></li>
     </ul>
   </div>
 </template>
