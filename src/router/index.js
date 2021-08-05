@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home/Home.vue'
+import QuickMenu from '../views/QuickMenu/QuickMenu.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'QuickMenu',
+    component: QuickMenu
   },
   {
     path: '/sample',

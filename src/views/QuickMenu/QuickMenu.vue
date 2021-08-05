@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
+  <div class="quickMenu">
     <img alt="Vue logo" src="../../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MenuList msg="クィークメニュー"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MenuList from '@/components/QuickMenu/MenuList.vue'
 
 export default {
-  name: 'Home',
+  name: 'QuickMenu',
   components: {
-    HelloWorld
+    MenuList
   }
 }
 </script>
