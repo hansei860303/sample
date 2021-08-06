@@ -3,7 +3,7 @@
         <p>{{ message }}</p>
         <div>
             <input class = "from-control" type="text" v-model="input">
-            <button class="btn btn-info mt-2" v-on:click="doAction">Click</button>
+            &nbsp;<button class="btn btn-primary" v-on:click="doAction">Click</button>
         </div>
     </div>
 </template>

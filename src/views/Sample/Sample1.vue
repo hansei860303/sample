@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HelloWord v-bind:title="titleName" />
-    <hr>
+    <br>
     <button class="btn btn-primary" v-on:click="doAction">
       change title
     </button>

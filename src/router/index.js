@@ -37,6 +37,21 @@ const routes = [
     name: 'Sample6',
     component: () => import('../views/Sample/Sample6.vue')
   },
+  {
+    path: '/sample7',
+    name: 'Sample7',
+    component: () => import('../views/Sample/Sample7.vue')
+  },
+  {
+    path: '/sample8',
+    name: 'Sample8',
+    component: () => import('../views/Sample/Sample8.vue')
+  },
+  {
+    path: '/sample9',
+    name: 'Sample9',
+    component: () => import('../views/Sample/Sample9.vue')
+  },
 ]
 
 const router = createRouter({

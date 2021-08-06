@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HelloWord v-bind:title="message" v-on:result-event = "appAction" />
-    <hr>
+    <br>
     <p>{{ result }}</p>
   </div>
 </template>

@@ -2,7 +2,6 @@
     <div class="aler alert-primary">
         <h2>{{ title }}</h2>
         <p>{{ message }}</p>
-        <hr>
         <p>Number: {{ num }}</p>
     </div>
 </template>
