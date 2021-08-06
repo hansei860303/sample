@@ -1,6 +1,5 @@
 <template>
     <div class="alert alert-info">
-        <h2>{{ title }}</h2>
         <p>{{ message }}</p>
         <div>
             <input class = "from-control" type="text" v-model="input">
@@ -8,22 +7,22 @@
         </div>
     </div>
 </template>
-
 <script>
-export default {
-    name: 'HelloWorld',
+export  default {
+    name: 'Hello:World',
     props: {
         title:String,
     },
     data() {
         return {
-            message:'お名前は？',
-            input:'no name',
+            message: 'お名前は？',
+            input: 'no name',
         }
     },
     methods: {
         doAction() {
-        this.message = 'こんにちは、' + this.input + 'さん!'
+            this.message = 'こんにちは' + this.input + 'さん！'
+            this.$emit('result-event', this.input)
         }
     }
 }

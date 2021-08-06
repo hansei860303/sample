@@ -12,14 +12,13 @@
 import HelloWord from '@/components/Sample/Sample1.vue'
 
 export default {
-  name:'App',
+  name:'app',
   components:{
     HelloWord
   },
   data() {
     return {
       titleName:'HELLO',
-      result:'no event'
     }
   },
   methods:{
