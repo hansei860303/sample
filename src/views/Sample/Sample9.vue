@@ -4,7 +4,7 @@
         <pre v-on:click="clear">{{message}}</pre>
         <br>
         <div id="out" class="out" v-on:click="a_event">A
-            <div id="mid" class="mid" v-on:click="b_event">B
+            <div id="mid" class="mid" v-on:click.self="b_event">B
                 <div id="in" class="in" v-on:click="c_event">C
                 </div>
             </div>
@@ -40,3 +40,28 @@ export default {
     },
 }
 </script>
+
+<style>
+pre {
+    font-size: 16pt;
+    line-height:1.25;
+}
+div.out{
+    padding: 0px;
+    background-color: #eee;
+    width:300px;
+    height:200px;
+}
+div.mid{
+    padding: 0px;
+    background-color: #ddd;
+    width:200px;
+    height:170px;
+}
+div.in{
+    padding: 0px;
+    background-color: #ccc;
+    width:100px;
+    height:140px;
+}
+</style>

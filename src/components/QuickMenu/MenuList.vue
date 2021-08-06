@@ -1,9 +1,16 @@
 <template>
   <div class="menuList">
     <h3>{{ msg }}</h3>
+    <br>
     <ul>
       <li><a href="">顧客情報新規</a></li>
       <li><a href="">顧客情報一覧</a></li>
+      <li><a href="">配送会社情報新規</a></li>
+      <li><a href="">配送会社情報一覧</a></li><br>
+      <li><a href="">商品情報新規</a></li>
+      <li><a href="">商品情報一覧</a></li>
+      <li><a href="">注文明細新規</a></li>
+      <li><a href="">注文一覧</a></li>       
     </ul>
     <h3>Sample</h3>
     <ul>
