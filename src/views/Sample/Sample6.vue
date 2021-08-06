@@ -15,7 +15,7 @@ export default {
     data() {
         return {
             message:'validate',
-            num: "200",
+            num: 200,
         }
     }
 }

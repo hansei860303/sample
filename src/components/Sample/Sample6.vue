@@ -12,14 +12,7 @@ export default {
     name: 'HelloWorld',
     props:{
         title: String,
-        num: {
-            type : Number,
-            default : 100,
-            validator : (value)=>{
-                return value == parseInt(value)
-                && value >=0 && value <= 100
-            },
-        },
+        num: Number,
     },
     data(){
         return {
