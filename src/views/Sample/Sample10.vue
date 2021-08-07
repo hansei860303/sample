@@ -1,7 +1,7 @@
 <template>
     <div class="alert alert-primary">
         <h1>{{ title }}</h1>
-        <pre v-on:click = "clear">{{ message }}</per>
+        <pre v-on:click = "clear">{{ message }}</pre>
         <br>
         <div>
             <input type = "text"  v-on:keydown="type" 
