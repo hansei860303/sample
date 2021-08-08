@@ -62,6 +62,21 @@ const routes = [
     name: 'Sample11',
     component: () => import('../views/Sample/Sample11.vue')
   },
+  {
+    path: '/sample12',
+    name: 'Sample12',
+    component: () => import('../views/Sample/Sample12.vue')
+  },
+  {
+    path: '/sample13',
+    name: 'Sample13',
+    component: () => import('../views/Sample/Sample13.vue')
+  },
+  {
+    path: '/sample14',
+    name: 'Sample14',
+    component: () => import('../views/Sample/Sample14.vue')
+  },
 
 ]
 

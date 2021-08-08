@@ -27,6 +27,9 @@
       <li><a href="/Sample10">Sample10</a></li>
       <br>
       <li><a href="/Sample11">Sample11</a></li>
+      <li><a href="/Sample12">Sample12</a></li>
+      <li><a href="/Sample13">Sample13</a></li>
+      <li><a href="/Sample14">Sample14</a></li>
     </ul>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWord v-bind:title="titleName" />
+    <HelloWorld v-bind:title="titleName" />
     <br>
     <button class="btn btn-primary" v-on:click="doAction">
       change title
@@ -9,12 +9,12 @@
 </template>
 
 <script>
-import HelloWord from '@/components/Sample/Sample1.vue'
+import HelloWorld from '@/components/Sample/Sample1.vue'
 
 export default {
   name:'app',
   components:{
-    HelloWord
+    HelloWorld
   },
   data() {
     return {
