@@ -8,6 +8,21 @@ const routes = [
     component: QuickMenu
   },
   {
+    path: '/customerList',
+    name: 'CustomerList',
+    component: () => import('../views/Customers/CustomerList.vue')
+  },
+  {
+    path: '/customerShow',
+    name: 'CustomerShow',
+    component: () => import('../views/Customers/CustomerShow.vue')
+  },
+  {
+    path: '/customerEdit',
+    name: 'CustomerEdit',
+    component: () => import('../views/Customers/CustomerEdit.vue')
+  },
+  {
     path: '/sample1',
     name: 'Sample1',
     component: () => import('../views/Sample/Sample1.vue')
@@ -77,7 +92,6 @@ const routes = [
     name: 'Sample14',
     component: () => import('../views/Sample/Sample14.vue')
   },
-
 ]
 
 const router = createRouter({

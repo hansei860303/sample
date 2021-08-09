@@ -1,0 +1,46 @@
+<template>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/items">商品管理デモ</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card card-primary mb-3">
+            <div class="card-header">
+                <h5 class="card-title">商品新規</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">商品名</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" />
+                            <div class="text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">価格</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text"/>
+                            <div class="text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">ベンダー</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text"/>
+                            <div class="text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-9">
+                            <button class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>
