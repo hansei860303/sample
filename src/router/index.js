@@ -92,6 +92,31 @@ const routes = [
     name: 'Sample14',
     component: () => import('../views/Sample/Sample14.vue')
   },
+  {
+    path: '/sample15',
+    name: 'Sample15',
+    component: () => import('../views/Sample/Sample15.vue')
+  },
+  {
+    path: '/sample16',
+    name: 'Sample16',
+    component: () => import('../views/Sample/Sample16.vue')
+  },
+  {
+    path: '/sample17',
+    name: 'Sample17',
+    component: () => import('../views/Sample/Sample17.vue')
+  },
+  {
+    path: '/sample18',
+    name: 'Sample18',
+    component: () => import('../views/Sample/Sample18.vue')
+  },
+  {
+    path: '/sample19',
+    name: 'Sample19',
+    component: () => import('../views/Sample/Sample19.vue')
+  },
 ]
 
 const router = createRouter({
