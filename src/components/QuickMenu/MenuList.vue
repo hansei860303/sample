@@ -40,7 +40,7 @@
       <li><a href="/Sample17">Sample17</a></li> |
       <li><a href="/Sample18">Sample18</a></li> |
       <li><a href="/Sample19">Sample19</a></li> |
-      <li><a href="/Sample20">Sample20</a></li> |
+      <li><router-link :to="{name:'Sample20',params:{name:'TARO',age:'35'}}">Sample20</router-link></li> |
     </ul>
   </div>
 </template>
