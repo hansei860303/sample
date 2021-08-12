@@ -13,12 +13,12 @@ const routes = [
     component: () => import('../views/Customers/CustomerList.vue')
   },
   {
-    path: '/customerShow',
+    path: '/customerShow/:id',
     name: 'CustomerShow',
     component: () => import('../views/Customers/CustomerShow.vue')
   },
   {
-    path: '/customerEdit',
+    path: '/customerEdit/:id',
     name: 'CustomerEdit',
     component: () => import('../views/Customers/CustomerEdit.vue')
   },
@@ -121,6 +121,26 @@ const routes = [
     path: '/sample20/:name/:age',
     name: 'Sample20',
     component: () => import('../views/Sample/Sample20.vue'),
+  },
+  {
+    path: '/sample21',
+    name: 'Sample21',
+    component: () => import('../views/Sample/Sample21.vue'),
+  },
+  {
+    path: '/sample22',
+    name: 'Sample22',
+    component: () => import('../views/Sample/Sample22.vue'),
+  },
+  {
+    path: '/sample23',
+    name: 'Sample23',
+    component: () => import('../views/Sample/Sample23.vue'),
+  },
+  {
+    path: '/sample24',
+    name: 'Sample24',
+    component: () => import('../views/Sample/Sample24.vue'),
   },
 ]
 
