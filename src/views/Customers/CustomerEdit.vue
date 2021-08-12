@@ -80,7 +80,9 @@
             <button class="btn btn-success m-2" v-on:click="doCreateOrUpdate">
               保存
             </button>
-            <button class="btn btn-success m-2" v-show="!flag" @click="doPaste">ペースト</button>
+            <button class="btn btn-success m-2" v-show="!flag" @click="doPaste">
+              ペースト
+            </button>
           </div>
         </div>
       </div>
@@ -150,7 +152,7 @@ export default {
           this.result = response.data;
           if (this.$route.params.id == "noparams") {
             this.message = "レコード【新規】しました。";
-          }else{
+          } else {
             this.message = "レコード【更新】しました。";
           }
         })
@@ -159,7 +161,7 @@ export default {
           this.result = null;
           if (this.$route.params.id == "noparams") {
             this.message = "レコード【新規】失敗しました。";
-          }else{
+          } else {
             this.message = "レコード【更新】失敗しました。";
           }
         });
@@ -191,6 +193,19 @@ export default {
             console.log(error);
             this.result = null;
           });
+      }
+    },
+    doPaste() {
+      let record = this.$store.state.c.customerRecord;
+      if (record != null) {
+        this.customerName = record.customerName;
+        this.mainContactName = record.mainContactName;
+        this.country = record.country;
+        this.city = record.city;
+        this.addressLine1 = record.addressLine1;
+        this.postalCode = record.postalCode;
+        this.contactEmail = record.contactEmail;
+        this.mainPhone = record.mainPhone;
       }
     },
   },

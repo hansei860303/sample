@@ -108,6 +108,9 @@ export default {
           });
       }
     },
+    doCopy() {
+      this.$store.dispatch('c/saveInfo',this.result)
+    },
   },
   mounted() {
     this.doFindById();
