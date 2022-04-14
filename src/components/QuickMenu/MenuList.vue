@@ -13,7 +13,7 @@
       |
 
     </ul>
-    <h3>Sample</h3>
+    <h3>開発用Sample</h3>
     <ul>
       <li><a href="/Sample1">Sample1</a></li>
       |

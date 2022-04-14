@@ -11,7 +11,7 @@
       <div class="from-group">
         <input type="number" v-model="findID" />
         <button class="btn btn-success m-2" @click="doFindById(findID)">
-          検索
+          ID検索
         </button>
       </div>
       <div class="card-header">

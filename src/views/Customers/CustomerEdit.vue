@@ -83,8 +83,9 @@
             <button class="btn btn-success m-2" v-show="!flag" @click="doPaste">
               ペースト
             </button>
+            <button class="btn btn-success m-2" @click="$router.back()">戻る</button>
           </div>
-        </div>
+        </div>        
       </div>
     </div>
   </div>

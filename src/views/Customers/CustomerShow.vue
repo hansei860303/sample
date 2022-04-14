@@ -51,6 +51,7 @@
           </div>
         </div>
         <button class="btn btn-success m-2" @click="doCopy">コピー</button>
+        <button class="btn btn-success m-2" @click="$router.back()">戻る</button>
       </div>
     </div>
   </div>

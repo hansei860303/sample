@@ -1,7 +1,7 @@
 <template>
   <div class="quickMenu">
     <img alt="Vue logo" src="../../assets/logo.png">
-    <MenuList msg="QuickMenu"/>
+    <MenuList msg="演習用Sample"/>
   </div>
 </template>
 
