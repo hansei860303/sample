@@ -3,55 +3,55 @@
     <h3>{{ msg }}</h3>
     <br />
     <ul>
-      <li><a href="/customerList">顧客情報一覧</a></li>
+      <li><router-link to="/customerList">顧客情報</router-link></li>
       |
-      <li><a href="/customerShow/1">顧客情報詳細</a></li>
+      <li><router-link to="/customerShow/1">顧客情報詳細</router-link></li>
       |
-      <li><a href="/customerEdit/1">顧客情報更新</a></li>
+      <li><router-link to="/customerEdit/1">顧客情報更新</router-link></li>
       |
-      <li><a href="/customerEdit/noparams">顧客情報新規</a></li>
+      <li><router-link to="/customerEdit/noparams">顧客情報新規</router-link></li>
       |
 
     </ul>
     <h3>開発用Sample</h3>
     <ul>
-      <li><a href="/Sample1">Sample1</a></li>
+      <li><router-link to="/Sample1">Sample1</router-link></li>
       |
-      <li><a href="/Sample2">Sample2</a></li>
+      <li><router-link to="/Sample2">Sample2</router-link></li>
       |
-      <li><a href="/Sample3">Sample3</a></li>
+      <li><router-link to="/Sample3">Sample3</router-link></li>
       |
-      <li><a href="/Sample4">Sample4</a></li>
+      <li><router-link to="/Sample4">Sample4</router-link></li>
       |
-      <li><a href="/Sample5">Sample5</a></li>
+      <li><router-link to="/Sample5">Sample5</router-link></li>
       |<br />
-      <li><a href="/Sample6">Sample6</a></li>
+      <li><router-link to="/Sample6">Sample6</router-link></li>
       |
-      <li><a href="/Sample7">Sample7</a></li>
+      <li><router-link to="/Sample7">Sample7</router-link></li>
       |
-      <li><a href="/Sample8">Sample8</a></li>
+      <li><router-link to="/Sample8">Sample8</router-link></li>
       |
-      <li><a href="/Sample9">Sample9</a></li>
+      <li><router-link to="/Sample9">Sample9</router-link></li>
       |
-      <li><a href="/Sample10">Sample10</a></li>
+      <li><router-link to="/Sample10">Sample10</router-link></li>
       |<br />
-      <li><a href="/Sample11">Sample11</a></li>
+      <li><router-link to="/Sample11">Sample11</router-link></li>
       |
-      <li><a href="/Sample12">Sample12</a></li>
+      <li><router-link to="/Sample12">Sample12</router-link></li>
       |
-      <li><a href="/Sample13">Sample13</a></li>
+      <li><router-link to="/Sample13">Sample13</router-link></li>
       |
-      <li><a href="/Sample14">Sample14</a></li>
+      <li><router-link to="/Sample14">Sample14</router-link></li>
       |
-      <li><a href="/Sample15">Sample15</a></li>
+      <li><router-link to="/Sample15">Sample15</router-link></li>
       |<br />
-      <li><a href="/Sample16">Sample16</a></li>
+      <li><router-link to="/Sample16">Sample16</router-link></li>
       |
-      <li><a href="/Sample17">Sample17</a></li>
+      <li><router-link to="/Sample17">Sample17</router-link></li>
       |
-      <li><a href="/Sample18">Sample18</a></li>
+      <li><router-link to="/Sample18">Sample18</router-link></li>
       |
-      <li><a href="/Sample19">Sample19</a></li>
+      <li><router-link to="/Sample19">Sample19</router-link></li>
       |
       <li>
         <router-link
@@ -60,13 +60,13 @@
         >
       </li>
       |<br />
-      <li><a href="/Sample21">Sample21</a></li>
+      <li><router-link to="/Sample21">Sample21</router-link></li>
       |
-      <li><a href="/Sample22">Sample22</a></li>
+      <li><router-link to="/Sample22">Sample22</router-link></li>
       |
-      <li><a href="/Sample23">Sample23</a></li>
+      <li><router-link to="/Sample23">Sample23</router-link></li>
       |
-      <li><a href="/Sample24">Sample24</a></li>
+      <li><router-link to="/Sample24">Sample24</router-link></li>
       |
     </ul>
   </div>
